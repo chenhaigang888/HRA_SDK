@@ -1,0 +1,11 @@
+framework module HRA_SDK {
+  umbrella header "HRA_SDK.h"
+
+  export *
+  module * { export * }
+}
+
+module HRA_SDK.Swift {
+  header "HRA_SDK-Swift.h"
+  requires objc
+}
